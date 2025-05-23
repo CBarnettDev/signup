@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fasttrk AI Signup</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #f9f9f9;
+      padding: 2rem;
+      max-width: 600px;
+      margin: 2rem auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background-color: #fff;
+    }
+    img.logo {
+      max-width: 150px;
+      display: block;
+      margin: 0 auto 2rem;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #000;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #222;
+    }
+  </style>
+</head>
+<body>
+  <img class="logo" src="https://fasttrk.ai/logo.png" alt="Fasttrk Logo" />
+  <h2>MurciLux Voicebot Setup</h2>
+  <form method="POST" action="#">
+    <input type="text" name="companyName" placeholder="Company Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <input type="text" name="phone" placeholder="Phone Number" required />
+    <input type="text" name="brandColors" placeholder="Brand Colors (e.g. #000000, #ffffff)" />
+    <input type="text" name="logoLink" placeholder="Link to your logo" />
+    <textarea name="notes" placeholder="Additional Notes" rows="4"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
